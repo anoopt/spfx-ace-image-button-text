@@ -1,0 +1,55 @@
+{
+  "schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.2",
+  "body": [
+    {
+      "type": "TextBlock",
+      "wrap": true,
+      "text": "${actionData}"
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "TextBlock",
+              "weight": "Bolder",
+              "text": "Comments",
+              "wrap": true
+            },
+            {
+              "type": "Input.Text",
+              "value": "${actionDataComments}",
+              "id": "comments"
+            },
+            {
+              "type": "Image",
+              "spacing": "Padding",
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Search_Icon.svg/1024px-Search_Icon.svg.png",
+              "width": "25px",
+              "selectAction": {
+                "type": "Action.Submit",
+                "data": {
+                  "id": "ImageButton"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Submit",
+      "data": {
+        "id": "SubmitButton"
+      },
+      "style": "positive"
+    }
+  ]
+}

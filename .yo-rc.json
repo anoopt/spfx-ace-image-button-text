@@ -1,0 +1,17 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.14.0",
+    "libraryName": "spfx-ace-input-test",
+    "libraryId": "f6d0f379-6518-431d-ab66-a5b6d9dcfc61",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "spfx-ace-input-test",
+    "solutionShortDescription": "spfx-ace-input-test description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "adaptiveCardExtension",
+    "aceTemplateType": "Image"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-ace-input-test-client-side-solution",
+    "id": "f6d0f379-6518-431d-ab66-a5b6d9dcfc61",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.14.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "spfx-ace-input-test description"
+      },
+      "longDescription": {
+        "default": "spfx-ace-input-test description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "spfx-ace-input-test Feature",
+        "description": "The feature that activates elements of the spfx-ace-input-test solution.",
+        "id": "854ddbd6-8e3b-43a7-b541-88f49f48e267",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-ace-input-test.sppkg"
+  }
+}
