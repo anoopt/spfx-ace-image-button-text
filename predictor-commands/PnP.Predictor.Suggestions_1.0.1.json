@@ -1,4 +1,10 @@
-{
-  "foo": "bar",
-  "foobar": "foobar"
-}
+[
+  {
+    "Command": "foo",
+    "Rank": "1"
+  },
+  {
+    "Command": "bar",
+    "Rank": "2"
+  }
+]
